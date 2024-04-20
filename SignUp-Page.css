@@ -5,7 +5,7 @@
       align-items: center;
       padding: 72px 60px 0;
     }
-  
+
     @media (max-width: 991px) {
       .container {
         padding: 0 20px;
@@ -26,7 +26,6 @@
         }
     }
     
-  
     .header {
         display: flex;
         gap: 10px;
@@ -43,13 +42,6 @@
     }
   
     
-  
-    @media (max-width: 991px) {
-      .navbar {
-        max-width: 100%;
-        flex-wrap: wrap;
-      }
-    }
   
     .logo {
         color: #000;
@@ -172,45 +164,71 @@
     }
   
     .username-label {
-      font-family: Inter, sans-serif;
-      margin-top: 52px;
-    }
+      font-family: ABeeZee, sans-serif;
+      font-style: italic;
+      margin-top: 57px;
+  }
   
-    @media (max-width: 991px) {
+  @media (max-width: 991px) {
       .username-label {
-        margin-top: 40px;
+          max-width: 100%;
+          margin-top: 40px;
       }
-    }
+  }
   
+  .username-input {
+    border-radius: 40px;
+    background-color: transparent; 
+    margin-top: 20px;
+    height: 50px; 
+    width: 450px; 
+  }
+
+  @media (max-width: 991px) {
     .username-input {
-      border-radius: 40px;
-      background-color: #d9d9d9;
-      margin-top: 11px;
-      height: 50px;
+       max-width: 100%;
     }
+  }
   
+  .password-label {
+    font-family: ABeeZee, sans-serif;
+    font-style: italic;
+    margin-top: 55px;
+  }
+
+  @media (max-width: 991px) {
     .password-label {
-      font-family: Inter, sans-serif;
-      margin-top: 27px;
+        max-width: 100%;
+        margin-top: 40px;
     }
+  }
   
+  .password-input {
+    border-radius: 40px;
+    background-color: transparent; 
+    margin-top: 14px;
+    height: 50px; 
+    width: 450px; 
+  }
+
+  @media (max-width: 991px) {
     .password-input {
-      border-radius: 40px;
-      background-color: #d9d9d9;
-      margin-top: 19px;
-      height: 50px;
+        max-width: 100%;
     }
+  }
   
     .confirm-password-label {
-      font-family: Inter, sans-serif;
-      margin-top: 29px;
+      font-family: ABeeZee, sans-serif;
+      font-style: italic;
+      margin-top: 55px;
     }
   
     .confirm-password-input {
       border-radius: 40px;
-      background-color: #d9d9d9;
-      margin-top: 15px;
-      height: 50px;
+      background-color: transparent; 
+      margin-top: 14px;
+      height: 50px; 
+      width: 450px; 
     }
   
     .user-type {
@@ -230,10 +248,10 @@
     .tour-guide-option {
       display: flex;
       gap: 11px;
-      text-align: center;
+      text-align: left;
     }
   
-    .tour-guide-checkbox {
+    .tour-guide-btn {
       border-radius: 10px;
       border: 2px solid rgba(99, 99, 102, 1);
       align-self: start;
@@ -259,7 +277,7 @@
       }
     }
   
-    .tourist-checkbox {
+    .tourist-btn {
       border-radius: 10px;
       border: 2px solid rgba(99, 99, 102, 1);
       width: 20px;
@@ -285,6 +303,7 @@
       white-space: nowrap;
       justify-content: space-between;
       padding: 10px 7px 4px;
+      width: 150px;
     }
   
     @media (max-width: 991px) {
@@ -319,6 +338,7 @@
       white-space: nowrap;
       justify-content: space-between;
       padding: 10px 7px 2px;
+      width: 150px;
     }
   
     @media (max-width: 991px) {
@@ -358,6 +378,8 @@
       font-size: 36px;
       white-space: nowrap;
       line-height: 119%;
+      width: 250px;
+      border-radius: 40px;
     }
   
     @media (max-width: 991px) {

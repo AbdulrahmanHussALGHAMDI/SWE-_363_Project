@@ -1,0 +1,413 @@
+    .container {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 72px 60px 0;
+    }
+  
+    @media (max-width: 991px) {
+      .container {
+        padding: 0 20px;
+      }
+    }
+
+    .content-wrapper {
+        display: flex;
+        margin-top: 13px;
+        width: 100%;
+        max-width: 1204px;
+        flex-direction: column;
+    }
+    
+    @media (max-width: 991px) {
+        .content-wrapper {
+            max-width: 100%;
+        }
+    }
+    
+  
+    .header {
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    @media (max-width: 991px) {
+        .header {
+            max-width: 100%;
+            flex-wrap: wrap;
+        }
+    }
+  
+    
+  
+    @media (max-width: 991px) {
+      .navbar {
+        max-width: 100%;
+        flex-wrap: wrap;
+      }
+    }
+  
+    .logo {
+        color: #000;
+        margin: auto 0;
+        font: 800 32px Inter, sans-serif;
+    }
+    
+    .home-link {
+        color: #000;
+        display: flex;
+        font: 24px Inter, sans-serif;
+        text-decoration: none;
+    }
+    
+    .explore-link {
+        color: #000;
+        font: 24px Inter, sans-serif;
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .nav-menu {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    @media (max-width: 991px) {
+        .nav-menu {
+            display: none;
+        }
+    }
+    
+    .login-link {
+        color: #000;
+        font: 24px Inter, sans-serif;
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .signup-link {
+        color: #000;
+        font: 24px Inter, sans-serif;
+        display: flex;
+        text-decoration: none;
+    }
+    
+    #search {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 300px;
+        height: 40px;
+    }
+    .main-content {
+      margin-top: 38px;
+      padding: 0 2px;
+    }
+  
+    @media (max-width: 991px) {
+      .main-content {
+        max-width: 100%;
+      }
+    }
+  
+    .row {
+      gap: 20px;
+      display: flex;
+    }
+  
+    @media (max-width: 991px) {
+      .row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+  
+    .column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 50%;
+      margin-left: 0px;
+    }
+  
+    @media (max-width: 991px) {
+      .column {
+        width: 100%;
+      }
+    }
+  
+    .signup-form {
+      display: flex;
+      flex-direction: column;
+      align-self: stretch;
+      font-size: 20px;
+      color: #000;
+      font-weight: 400;
+      margin: auto 0;
+    }
+  
+    @media (max-width: 991px) {
+      .signup-form {
+        margin-top: 40px;
+      }
+    }
+  
+    .signup-heading {
+      font: 48px Inter, sans-serif;
+    }
+  
+    @media (max-width: 991px) {
+      .signup-heading {
+        font-size: 40px;
+      }
+    }
+  
+    .username-label {
+      font-family: Inter, sans-serif;
+      margin-top: 52px;
+    }
+  
+    @media (max-width: 991px) {
+      .username-label {
+        margin-top: 40px;
+      }
+    }
+  
+    .username-input {
+      border-radius: 40px;
+      background-color: #d9d9d9;
+      margin-top: 11px;
+      height: 50px;
+    }
+  
+    .password-label {
+      font-family: Inter, sans-serif;
+      margin-top: 27px;
+    }
+  
+    .password-input {
+      border-radius: 40px;
+      background-color: #d9d9d9;
+      margin-top: 19px;
+      height: 50px;
+    }
+  
+    .confirm-password-label {
+      font-family: Inter, sans-serif;
+      margin-top: 29px;
+    }
+  
+    .confirm-password-input {
+      border-radius: 40px;
+      background-color: #d9d9d9;
+      margin-top: 15px;
+      height: 50px;
+    }
+  
+    .user-type {
+      display: flex;
+      width: 128px;
+      max-width: 100%;
+      flex-direction: column;
+      margin: 47px 0 0 14px;
+    }
+  
+    @media (max-width: 991px) {
+      .user-type {
+        margin: 40px 0 0 10px;
+      }
+    }
+  
+    .tour-guide-option {
+      display: flex;
+      gap: 11px;
+      text-align: center;
+    }
+  
+    .tour-guide-checkbox {
+      border-radius: 10px;
+      border: 2px solid rgba(99, 99, 102, 1);
+      align-self: start;
+      width: 20px;
+      height: 20px;
+    }
+  
+    .tour-guide-label {
+      font-family: Abel, sans-serif;
+    }
+  
+    .tourist-option {
+      display: flex;
+      margin-top: 17px;
+      gap: 11px;
+      white-space: nowrap;
+      text-align: center;
+    }
+  
+    @media (max-width: 991px) {
+      .tourist-option {
+        white-space: initial;
+      }
+    }
+  
+    .tourist-checkbox {
+      border-radius: 10px;
+      border: 2px solid rgba(99, 99, 102, 1);
+      width: 20px;
+      height: 20px;
+    }
+  
+    .tourist-label {
+      font-family: Abel, sans-serif;
+      margin: auto 0;
+    }
+  
+    .interest-select {
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 1);
+      border-bottom-width: 1px;
+      background-color: #ff4b26;
+      display: flex;
+      margin-top: 40px;
+      align-items: start;
+      gap: 20px;
+      font-size: 15px;
+      color: #111;
+      white-space: nowrap;
+      justify-content: space-between;
+      padding: 10px 7px 4px;
+    }
+  
+    @media (max-width: 991px) {
+      .interest-select {
+        white-space: initial;
+      }
+    }
+  
+    .interest-label {
+      font-family: Abel, sans-serif;
+    }
+  
+    .interest-select img {
+      aspect-ratio: 1.59;
+      object-fit: auto;
+      object-position: center;
+      width: 8px;
+      fill: #6f6e6e;
+    }
+  
+    .city-select {
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 1);
+      border-bottom-width: 1px;
+      background-color: #ff4b26;
+      display: flex;
+      margin-top: 13px;
+      align-items: start;
+      gap: 20px;
+      font-size: 15px;
+      color: #111;
+      white-space: nowrap;
+      justify-content: space-between;
+      padding: 10px 7px 2px;
+    }
+  
+    @media (max-width: 991px) {
+      .city-select {
+        white-space: initial;
+      }
+    }
+  
+    .city-label {
+      font-family: Abel, sans-serif;
+    }
+  
+    .city-select img {
+      aspect-ratio: 1.33;
+      object-fit: auto;
+      object-position: center;
+      width: 8px;
+      fill: #6f6e6e;
+    }
+  
+    .terms-text {
+      color: #ff4b26;
+      font-family: Abel, sans-serif;
+      margin-top: 64px;
+    }
+  
+    @media (max-width: 991px) {
+      .terms-text {
+        margin-top: 40px;
+      }
+    }
+  
+    .register-button {
+      display: flex;
+      margin-top: 53px;
+      gap: 20px;
+      font-size: 36px;
+      white-space: nowrap;
+      line-height: 119%;
+    }
+  
+    @media (max-width: 991px) {
+      .register-button {
+        padding-right: 20px;
+        margin-top: 40px;
+        white-space: initial;
+      }
+    }
+  
+    .register-text {
+      font-family: Abel, sans-serif;
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: auto 0;
+    }
+  
+    .register-button img {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 76px;
+    }
+  
+    .image-column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 50%;
+      margin-left: 20px;
+    }
+  
+    @media (max-width: 991px) {
+      .image-column {
+        width: 100%;
+      }
+    }
+  
+    .signup-image {
+      aspect-ratio: 0.53;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      flex-grow: 1;
+    }
+  
+    @media (max-width: 991px) {
+      .signup-image {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+  
